@@ -1,0 +1,64 @@
+/*
+  Localizable.strings
+
+  
+*/
+
+
+"amplify_ui_liveness_get_ready_page_title" = "Canlılık Kontrolü";
+"amplify_ui_liveness_get_ready_photosensitivity_title" = "Fotoğraf Hassasiyeti Uyarısı";
+"amplify_ui_liveness_get_ready_photosensitivity_description" = "Bu kontrol farklı renklerle
+flaş yapar. Fotosensitifseniz dikkatli olun.";
+"amplify_ui_liveness_get_ready_photosensitivity_icon_a11y" = "Fotosensitivite Bilgisi";
+"amplify_ui_liveness_get_ready_photosensitivity_dialog_title" = "Fotoğraf Hassasiyeti
+Uyarısı";
+"amplify_ui_liveness_get_ready_photosensitivity_dialog_description" = "Bazı insanlar
+renkli ışıklara maruz kaldıklarında epileptik nöbetler geçirebilir. Sizin veya ailenizden
+herhangi biri epilepsi durumunda dikkatli olun.";
+"amplify_ui_liveness_get_ready_begin_check" = "Video kontrolünü başlat";
+"amplify_ui_liveness_challenge_recording_indicator_label" = "KAYIT";
+"amplify_ui_liveness_challenge_instruction_hold_face_during_countdown" = "Geri sayım
+sırasında yüz pozisyonunu sabit tutun.";
+"amplify_ui_liveness_challenge_instruction_hold_face_during_freshness" = "Renkli ışıklar
+için ovalde yüzü sabit tutun.";
+"amplify_ui_liveness_challenge_instruction_move_face_back" = "Geri git";
+"amplify_ui_liveness_challenge_instruction_move_face_closer" = "Daha yaklaş";
+"amplify_ui_liveness_challenge_instruction_move_face_in_front_of_camera" = "Yüzü
+kameranın önüne getir";
+"amplify_ui_liveness_challenge_instruction_multiple_faces_detected" = "Her kontrolde
+yalnızca bir yüz";
+"amplify_ui_liveness_challenge_instruction_hold_still" = "Hareketsiz dur";
+"amplify_ui_liveness_challenge_connecting" = "Bağlanıyor...";
+"amplify_ui_liveness_challenge_verifying" = "Doğrulanıyor...";
+"amplify_ui_liveness_challenge_cancel_a11y" = "Mücadeleyi İptal Et";
+"amplify_ui_liveness_camera_setting_alert_title" = "Kamera Ayarlarınızı Değiştirin";
+"amplify_ui_liveness_camera_setting_alert_message" = "Ayarlar bölümünde kamera izni
+verin.";
+"amplify_ui_liveness_camera_setting_alert_update_setting_button_text" = "Ayarları
+Güncelle";
+"amplify_ui_liveness_camera_setting_alert_not_now_button_text" = "Şimdi Değil";
+"amplify_ui_liveness_close_button_a11y" = "Kapat";
+"amplify_ui_liveness_center_your_face_text" = "Yüzünüzü Merkezleyin";
+"amplify_ui_liveness_camera_permission_page_title" = "Canlılık Kontrolü";
+"amplify_ui_liveness_camera_permission_button_title" = "Kamera Ayarlarını Değiştir";
+"amplify_ui_liveness_camera_permission_button_header" = "Kameraya erişilemiyor";
+"amplify_ui_liveness_camera_permission_button_description" = "Kamera izinlerini vermek
+için ayarlara girmeniz ve uygulamayı kapatıp tekrar denemeniz gerekebilir.";
+"amplify_ui_liveness_face_not_prepared_reason_pendingCheck" = " ";
+"amplify_ui_liveness_face_not_prepared_reason_not_in_oval" = "Yüzü ova şekline
+sığdırın";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_closer" = "Daha yaklaş";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_right" = "Yüzü sağa hareket
+ettir";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_left" = "Yüzü sola hareket
+ettir";
+"amplify_ui_liveness_face_not_prepared_reason_move_to_dimmer_area" = "Daha karanlık
+bir alana gidin";
+"amplify_ui_liveness_face_not_prepared_reason_move_to_brighter_area" = "Daha parlak
+bir alana gidin";
+"amplify_ui_liveness_face_not_prepared_reason_no_face" = "Yüzü kameranın önüne
+getirin";
+"amplify_ui_liveness_face_not_prepared_reason_multiple_faces" = "Her kontrolde
+yalnızca bir yüz";
+"amplify_ui_liveness_face_not_prepared_reason_face_too_close" = "Yüzü daha uzağa
+götürün";

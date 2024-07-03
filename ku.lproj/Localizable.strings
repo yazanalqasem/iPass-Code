@@ -1,0 +1,65 @@
+/*
+  Localizable.strings
+
+  
+*/
+
+
+"amplify_ui_liveness_get_ready_page_title" = "Pirsgirêka Jiyana";
+"amplify_ui_liveness_get_ready_photosensitivity_title" = "Şaneşînebûna Foto";
+"amplify_ui_liveness_get_ready_photosensitivity_description" = "Ev testî rengek cuda
+dimîne. Di qebûl kirinê de xawîtiyekê bikin heger tu dikarî bêşîndarî.";
+"amplify_ui_liveness_get_ready_photosensitivity_icon_a11y" = "Agahdariya Şaneşînebûna
+Foto";
+"amplify_ui_liveness_get_ready_photosensitivity_dialog_title" = "Agahdariya Şaneşînebûna
+Foto";
+"amplify_ui_liveness_get_ready_photosensitivity_dialog_description" = "Mirov dikarin
+tiştek bixwe bibin li ser rûyê wan herêmên tiştek bişkînin. Di qebûl kirinê de xawîtiyekê bikin
+heger tu, yan herkes di malbata te de, rewşa zîndanîbûnê ya xwe ya zîndanîbûnê hebe.";
+"amplify_ui_liveness_get_ready_begin_check" = "Testê dest pê bike";
+"amplify_ui_liveness_challenge_recording_indicator_label" = "REC";
+"amplify_ui_liveness_challenge_instruction_hold_face_during_countdown" = "Pozîsyona
+rûyê xwe lê pirzûne serdem";
+"amplify_ui_liveness_challenge_instruction_hold_face_during_freshness" = "Rûyê xwe li
+ser şaneşînê bihêltîne";
+"amplify_ui_liveness_challenge_instruction_move_face_back" = "Paşve vegerîne";
+"amplify_ui_liveness_challenge_instruction_move_face_closer" = "Nêzîkî bike";
+"amplify_ui_liveness_challenge_instruction_move_face_in_front_of_camera" = "Rûyê xwe
+bi ber çavê kamerayê ve hîn bike";
+"amplify_ui_liveness_challenge_instruction_multiple_faces_detected" = "Tenê yek rûy li
+her testê";
+"amplify_ui_liveness_challenge_instruction_hold_still" = "Stendin";
+"amplify_ui_liveness_challenge_connecting" = "Têkildarî ...";
+"amplify_ui_liveness_challenge_verifying" = "Test kirin ...";
+"amplify_ui_liveness_challenge_cancel_a11y" = "Pêşengiya Testê Vebijarkê Bike";
+"amplify_ui_liveness_camera_setting_alert_title" = "Guhartinên Kamera xwe biguherîne";
+"amplify_ui_liveness_camera_setting_alert_message" = "Ruxandinê mirinên kamera li
+heman";
+"amplify_ui_liveness_camera_setting_alert_update_setting_button_text" = "Guhartinê
+guherîn";
+"amplify_ui_liveness_camera_setting_alert_not_now_button_text" = "Niha niha";
+"amplify_ui_liveness_close_button_a11y" = "Xwe bigire";
+"amplify_ui_liveness_center_your_face_text" = "Rûyê xwe navbêje";
+"amplify_ui_liveness_camera_permission_page_title" = "Pirsgirêka Jiyana";
+"amplify_ui_liveness_camera_permission_button_title" = "Guhartinên Kamera Biguherîne";
+"amplify_ui_liveness_camera_permission_button_header" = "Kamera tenê têkildar nabe";
+"amplify_ui_liveness_camera_permission_button_description" = "Hûn dikarin bixwazin ku
+hûn bixin settings da ku ruxandinên kamera bibin û appê bixwin û dîsa hewl bê dayîn.";
+"amplify_ui_liveness_face_not_prepared_reason_pendingCheck" = " ";
+"amplify_ui_liveness_face_not_prepared_reason_not_in_oval" = "Rûyê xwe ji bo ku bi oval
+bibin hilbijêrin";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_closer" = "Nêzîkirina rûyê";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_right" = "Rûyê xwe bi rastî ve
+hîn bike";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_left" = "Rûyê xwe bi çepê ve
+hîn bike";
+"amplify_ui_liveness_face_not_prepared_reason_move_to_dimmer_area" = "Bi aliyê
+hingivên hilçûn";
+"amplify_ui_liveness_face_not_prepared_reason_move_to_brighter_area" = "Bi aliyê
+ronahiya zêrîn";
+"amplify_ui_liveness_face_not_prepared_reason_no_face" = "Rûyê xwe bi ber çavê
+kamerayê ve hîn bike";
+"amplify_ui_liveness_face_not_prepared_reason_multiple_faces" = "Tenê yek rûy li her
+testê";
+"amplify_ui_liveness_face_not_prepared_reason_face_too_close" = "Rûyê xwe ji dûr ve hîn
+bike";

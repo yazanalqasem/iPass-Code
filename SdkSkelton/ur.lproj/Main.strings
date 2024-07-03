@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "ID Document Check"; ObjectID = "OdS-w5-rNo"; */
+"OdS-w5-rNo.text" = "ID Document Check";
+
+/* Class = "UILabel"; text = "Geolocation Data"; ObjectID = "OtC-Kb-R1h"; */
+"OtC-Kb-R1h.text" = "Geolocation Data";
+
+/* Class = "UILabel"; text = "Rejected"; ObjectID = "dKW-aO-xFq"; */
+"dKW-aO-xFq.text" = "Rejected";
+
+/* Class = "UILabel"; text = "Social Media Details"; ObjectID = "uTG-SN-4KQ"; */
+"uTG-SN-4KQ.text" = "Social Media Details";
+
+/* Class = "UILabel"; text = "Identity check in live mode"; ObjectID = "yW8-Es-Ir3"; */
+"yW8-Es-Ir3.text" = "Identity check in live mode";

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="430" id="KGk-i7-Jjw" customClass="FraudDetailTableViewCell" customModule="SdkSkelton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="430"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="430"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tSq-xS-KCL">
+                        <rect key="frame" x="0.0" y="15" width="320" height="400"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" text="Degree of fraud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7f-nG-RG0">
+                                <rect key="frame" x="15" y="15" width="290" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.10196078431372549" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdx-hg-2Gd">
+                                <rect key="frame" x="15" y="45" width="290" height="21.666666666666671"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.10196078431372549" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" text="EMAIL SCORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8d-Is-6El">
+                                <rect key="frame" x="15" y="86.666666666666671" width="134.33333333333334" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.1019607843" blue="0.18823529411764706" alpha="0.48970405630000002" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBY-WB-mcZ">
+                                <rect key="frame" x="15" y="105.66666666666667" width="134.33333333333334" height="15"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.10196078431372549" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IP SCORE" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtC-20-72z">
+                                <rect key="frame" x="170.66666666666663" y="86.666666666666671" width="134.33333333333337" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.1019607843" blue="0.18823529411764706" alpha="0.48970405630000002" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilV-sn-j2t">
+                                <rect key="frame" x="170.66666666666663" y="105.66666666666667" width="134.33333333333337" height="15"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.10196078431372549" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PHONE CLASS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuk-2n-FuF">
+                                <rect key="frame" x="15" y="135.66666666666666" width="134.33333333333334" height="31.333333333333343"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.1019607843" blue="0.18823529411764706" alpha="0.48970405630000002" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXQ-YY-9JR">
+                                <rect key="frame" x="15" y="172" width="134.33333333333334" height="15"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.10196078431372549" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEVICE SCORE" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2te-mk-Fsu">
+                                <rect key="frame" x="170.66666666666663" y="144.33333333333334" width="134.33333333333337" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.1019607843" blue="0.18823529411764706" alpha="0.48970405630000002" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57a-3r-Qhe">
+                                <rect key="frame" x="170.66666666666663" y="172" width="134.33333333333337" height="15"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.10196078431372549" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" text="Email Rules" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4Z-2r-GUt">
+                                <rect key="frame" x="15" y="207" width="290" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.1019607843" blue="0.18823529411764706" alpha="0.48970405630000002" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rq0-qy-cry">
+                                <rect key="frame" x="15" y="226" width="290" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum is a placeholder text commonly used to de mo nstrate the visual form of a document or a typeface without relying on.
+</string>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.10196078431372549" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Phone Rules" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4eS-61-RZm">
+                                <rect key="frame" x="15" y="301" width="290" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.1019607843" blue="0.18823529411764706" alpha="0.48970405630000002" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wt-O9-2gK">
+                                <rect key="frame" x="15" y="320" width="290" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum is a placeholder text commonly used to de mo nstrate the visual form of a document or a typeface without relying on.
+</string>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                <color key="textColor" red="0.074509803921568626" green="0.10196078431372549" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="d7f-nG-RG0" firstAttribute="top" secondItem="tSq-xS-KCL" secondAttribute="top" constant="15" id="0ED-tV-6cG"/>
+                            <constraint firstItem="ilV-sn-j2t" firstAttribute="width" secondItem="rtC-20-72z" secondAttribute="width" id="3Zh-BP-3zC"/>
+                            <constraint firstItem="Rq0-qy-cry" firstAttribute="top" secondItem="O4Z-2r-GUt" secondAttribute="bottom" constant="5" id="5hX-tx-Gxq"/>
+                            <constraint firstItem="Rq0-qy-cry" firstAttribute="leading" secondItem="tSq-xS-KCL" secondAttribute="leading" constant="15" id="7La-Ck-yFq"/>
+                            <constraint firstItem="O4Z-2r-GUt" firstAttribute="leading" secondItem="tSq-xS-KCL" secondAttribute="leading" constant="15" id="7Ve-oY-046"/>
+                            <constraint firstItem="d7f-nG-RG0" firstAttribute="top" secondItem="tSq-xS-KCL" secondAttribute="top" constant="15" id="8HD-Km-qeV"/>
+                            <constraint firstItem="c8d-Is-6El" firstAttribute="leading" secondItem="tSq-xS-KCL" secondAttribute="leading" constant="15" id="8Vg-y5-WM9"/>
+                            <constraint firstItem="d7f-nG-RG0" firstAttribute="leading" secondItem="tSq-xS-KCL" secondAttribute="leading" constant="15" id="Eie-xl-uT5"/>
+                            <constraint firstItem="2te-mk-Fsu" firstAttribute="centerY" secondItem="tuk-2n-FuF" secondAttribute="centerY" id="F77-yB-y7Z"/>
+                            <constraint firstAttribute="trailing" secondItem="57a-3r-Qhe" secondAttribute="trailing" constant="15" id="FUl-Dl-JXE"/>
+                            <constraint firstAttribute="trailing" secondItem="rtC-20-72z" secondAttribute="trailing" constant="15" id="FYK-XJ-sH5"/>
+                            <constraint firstAttribute="trailing" secondItem="d7f-nG-RG0" secondAttribute="trailing" constant="15" id="HH0-B9-pua"/>
+                            <constraint firstAttribute="trailing" secondItem="O4Z-2r-GUt" secondAttribute="trailing" constant="15" id="HQd-je-WNa"/>
+                            <constraint firstItem="aXQ-YY-9JR" firstAttribute="width" secondItem="tuk-2n-FuF" secondAttribute="width" id="If7-1j-Cpy"/>
+                            <constraint firstItem="HBY-WB-mcZ" firstAttribute="leading" secondItem="tSq-xS-KCL" secondAttribute="leading" constant="15" id="NG9-yr-nFQ"/>
+                            <constraint firstItem="c8d-Is-6El" firstAttribute="top" secondItem="Mdx-hg-2Gd" secondAttribute="bottom" constant="20" id="OuX-3V-x2X"/>
+                            <constraint firstItem="rtC-20-72z" firstAttribute="width" secondItem="c8d-Is-6El" secondAttribute="width" id="Pil-at-zQs"/>
+                            <constraint firstAttribute="trailing" secondItem="d7f-nG-RG0" secondAttribute="trailing" constant="15" id="Rcx-6V-3cb"/>
+                            <constraint firstItem="tuk-2n-FuF" firstAttribute="width" secondItem="c8d-Is-6El" secondAttribute="width" id="S8O-4C-KMx"/>
+                            <constraint firstItem="HBY-WB-mcZ" firstAttribute="width" secondItem="c8d-Is-6El" secondAttribute="width" id="WPC-3n-o14"/>
+                            <constraint firstItem="57a-3r-Qhe" firstAttribute="centerY" secondItem="aXQ-YY-9JR" secondAttribute="centerY" id="WVh-z5-NYm"/>
+                            <constraint firstItem="57a-3r-Qhe" firstAttribute="width" secondItem="aXQ-YY-9JR" secondAttribute="width" id="ZGB-zA-BOI"/>
+                            <constraint firstItem="aXQ-YY-9JR" firstAttribute="leading" secondItem="tSq-xS-KCL" secondAttribute="leading" constant="15" id="ZTO-6d-SA5"/>
+                            <constraint firstItem="rtC-20-72z" firstAttribute="centerY" secondItem="c8d-Is-6El" secondAttribute="centerY" id="ZcL-vl-A3o"/>
+                            <constraint firstItem="d7f-nG-RG0" firstAttribute="leading" secondItem="tSq-xS-KCL" secondAttribute="leading" constant="15" id="a5G-Na-a4D"/>
+                            <constraint firstItem="2te-mk-Fsu" firstAttribute="width" secondItem="tuk-2n-FuF" secondAttribute="width" id="aTc-Dp-G4c"/>
+                            <constraint firstItem="tuk-2n-FuF" firstAttribute="top" secondItem="HBY-WB-mcZ" secondAttribute="bottom" constant="15" id="ajb-Dl-HqN"/>
+                            <constraint firstItem="tuk-2n-FuF" firstAttribute="leading" secondItem="tSq-xS-KCL" secondAttribute="leading" constant="15" id="cyw-cd-cEP"/>
+                            <constraint firstItem="aXQ-YY-9JR" firstAttribute="top" secondItem="tuk-2n-FuF" secondAttribute="bottom" constant="5" id="eFx-5A-qV7"/>
+                            <constraint firstItem="c8d-Is-6El" firstAttribute="width" secondItem="tSq-xS-KCL" secondAttribute="width" multiplier="0.42" id="eSk-YG-J3k"/>
+                            <constraint firstItem="Mdx-hg-2Gd" firstAttribute="leading" secondItem="tSq-xS-KCL" secondAttribute="leading" constant="15" id="fK9-21-fwx"/>
+                            <constraint firstItem="ilV-sn-j2t" firstAttribute="top" secondItem="rtC-20-72z" secondAttribute="bottom" constant="5" id="hSD-R4-Bk9"/>
+                            <constraint firstItem="Mdx-hg-2Gd" firstAttribute="top" secondItem="d7f-nG-RG0" secondAttribute="bottom" constant="10" id="jZa-Is-E8Z"/>
+                            <constraint firstItem="O4Z-2r-GUt" firstAttribute="top" secondItem="aXQ-YY-9JR" secondAttribute="bottom" constant="20" id="m25-3V-ZR8"/>
+                            <constraint firstItem="4eS-61-RZm" firstAttribute="top" secondItem="Rq0-qy-cry" secondAttribute="bottom" constant="15" id="m82-eS-9hY"/>
+                            <constraint firstItem="4eS-61-RZm" firstAttribute="leading" secondItem="tSq-xS-KCL" secondAttribute="leading" constant="15" id="mkd-v4-qxd"/>
+                            <constraint firstAttribute="trailing" secondItem="5wt-O9-2gK" secondAttribute="trailing" constant="15" id="nEZ-dh-Oj2"/>
+                            <constraint firstItem="5wt-O9-2gK" firstAttribute="top" secondItem="4eS-61-RZm" secondAttribute="bottom" constant="5" id="oHt-b0-0xf"/>
+                            <constraint firstAttribute="trailing" secondItem="ilV-sn-j2t" secondAttribute="trailing" constant="15" id="ol2-ZR-nNh"/>
+                            <constraint firstItem="5wt-O9-2gK" firstAttribute="leading" secondItem="tSq-xS-KCL" secondAttribute="leading" constant="15" id="pOK-eD-n95"/>
+                            <constraint firstAttribute="trailing" secondItem="2te-mk-Fsu" secondAttribute="trailing" constant="15" id="q2y-uP-nHg"/>
+                            <constraint firstAttribute="trailing" secondItem="Rq0-qy-cry" secondAttribute="trailing" constant="15" id="qxp-7x-NR0"/>
+                            <constraint firstAttribute="trailing" secondItem="Mdx-hg-2Gd" secondAttribute="trailing" constant="15" id="vqT-q4-D7z"/>
+                            <constraint firstAttribute="bottom" secondItem="5wt-O9-2gK" secondAttribute="bottom" constant="20" id="wc0-KJ-1YS"/>
+                            <constraint firstAttribute="trailing" secondItem="4eS-61-RZm" secondAttribute="trailing" constant="15" id="xf9-pB-vBl"/>
+                            <constraint firstItem="HBY-WB-mcZ" firstAttribute="top" secondItem="c8d-Is-6El" secondAttribute="bottom" constant="5" id="zTu-1N-FFE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="tSq-xS-KCL" secondAttribute="bottom" constant="15" id="63T-fD-Teg"/>
+                    <constraint firstItem="tSq-xS-KCL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Sv0-1I-f9R"/>
+                    <constraint firstAttribute="trailing" secondItem="tSq-xS-KCL" secondAttribute="trailing" id="VKp-Oh-iae"/>
+                    <constraint firstItem="tSq-xS-KCL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="yaK-o3-4x0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="deviceScore" destination="57a-3r-Qhe" id="d20-TZ-fJ0"/>
+                <outlet property="deviceScoreLabel" destination="2te-mk-Fsu" id="NV8-cw-h0X"/>
+                <outlet property="email" destination="HBY-WB-mcZ" id="NUM-Y0-iPU"/>
+                <outlet property="emailRuleLabel" destination="O4Z-2r-GUt" id="wka-0h-Rdl"/>
+                <outlet property="emailRules" destination="Rq0-qy-cry" id="Dk1-Qb-99X"/>
+                <outlet property="emailScoreLabel" destination="c8d-Is-6El" id="RKJ-ax-fmw"/>
+                <outlet property="fraudValue" destination="Mdx-hg-2Gd" id="Mrz-MU-WSo"/>
+                <outlet property="headingLabel" destination="d7f-nG-RG0" id="ySN-MV-WHJ"/>
+                <outlet property="holderView" destination="tSq-xS-KCL" id="nku-Ba-5zW"/>
+                <outlet property="ipScore" destination="ilV-sn-j2t" id="M1I-7G-K0b"/>
+                <outlet property="ipScoreLabel" destination="rtC-20-72z" id="WZb-xJ-Uv8"/>
+                <outlet property="phoneClass" destination="aXQ-YY-9JR" id="9Ma-dt-CXc"/>
+                <outlet property="phoneClassLabel" destination="tuk-2n-FuF" id="KvZ-fw-XcU"/>
+                <outlet property="phoneRuleLabel" destination="4eS-61-RZm" id="wSZ-dK-lxD"/>
+                <outlet property="phoneRules" destination="5wt-O9-2gK" id="k2a-9A-1e9"/>
+            </connections>
+            <point key="canvasLocation" x="-24.427480916030532" y="103.52112676056339"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,52 @@
+/*
+  Localizable.strings
+
+  
+*/
+
+
+"amplify_ui_liveness_get_ready_page_title" = "لائیو نیس چیک";
+"amplify_ui_liveness_get_ready_photosensitivity_title" = "روشنی کی حساسیت کی وارننگ";
+"amplify_ui_liveness_get_ready_photosensitivity_description" = "یہ چیک مختلف رنگوں کی جھلک دکھاتا ہے۔ اگر آپ کو روشنی سے حساسیت ہے تو احتیاط کریں۔";
+"amplify_ui_liveness_get_ready_photosensitivity_icon_a11y" = "روشنی کی حساسیت کی معلومات";
+"amplify_ui_liveness_get_ready_photosensitivity_dialog_title" = "روشنی کی حساسیت کی وارننگ";
+"amplify_ui_liveness_get_ready_photosensitivity_dialog_description" = "کچھ لوگوں کو رنگین روشنیوں کے سامنے آنے پر مرگی کے دورے پڑ سکتے ہیں۔ اگر آپ یا آپ کے خاندان میں کسی کو مرگی کا مسئلہ ہے تو احتیاط کریں۔";
+"amplify_ui_liveness_get_ready_begin_check" = "ویڈیو چیک شروع کریں";
+
+"amplify_ui_liveness_challenge_recording_indicator_label" = "ریک";
+"amplify_ui_liveness_challenge_instruction_hold_face_during_countdown" = "الٹی گنتی کے دوران چہرے کی پوزیشن برقرار رکھیں۔";
+"amplify_ui_liveness_challenge_instruction_hold_face_during_freshness" = "رنگین روشنیوں کے لیے چہرہ بیضوی میں رکھیں۔";
+"amplify_ui_liveness_challenge_instruction_move_face_back" = "پیچھے ہٹیں";
+"amplify_ui_liveness_challenge_instruction_move_face_closer" = "قریب آئیں";
+"amplify_ui_liveness_challenge_instruction_move_face_in_front_of_camera" = "چہرے کو کیمرے کے سامنے رکھیں";
+"amplify_ui_liveness_challenge_instruction_multiple_faces_detected" = "ہر چیک میں صرف ایک چہرہ";
+"amplify_ui_liveness_challenge_instruction_hold_still" = "ساکن رہیں";
+
+"amplify_ui_liveness_challenge_connecting" = "کنیکٹ ہو رہا ہے...";
+"amplify_ui_liveness_challenge_verifying" = "تصدیق ہو رہی ہے";
+"amplify_ui_liveness_challenge_cancel_a11y" = "چیلنج منسوخ کریں";
+
+"amplify_ui_liveness_camera_setting_alert_title" = "اپنی کیمرہ سیٹنگز تبدیل کریں";
+"amplify_ui_liveness_camera_setting_alert_message" = "سیٹنگز میں کیمرہ کی اجازت دیں۔";
+"amplify_ui_liveness_camera_setting_alert_update_setting_button_text" = "سیٹنگ اپ ڈیٹ کریں";
+"amplify_ui_liveness_camera_setting_alert_not_now_button_text" = "ابھی نہیں";
+
+"amplify_ui_liveness_close_button_a11y" = "بند کریں";
+
+"amplify_ui_liveness_center_your_face_text" = "اپنے چہرے کو درمیان میں رکھیں";
+"amplify_ui_liveness_camera_permission_page_title" = "لائیو نیس چیک";
+"amplify_ui_liveness_camera_permission_button_title" = "کیمرہ سیٹنگ تبدیل کریں";
+"amplify_ui_liveness_camera_permission_button_header" = "کیمرہ دستیاب نہیں ہے";
+"amplify_ui_liveness_camera_permission_button_description" = "آپ کو کیمرہ کی اجازت دینے کے لیے سیٹنگز میں جانا پڑ سکتا ہے، ایپ کو بند کریں اور دوبارہ کوشش کریں۔";
+
+
+"amplify_ui_liveness_face_not_prepared_reason_pendingCheck" = " ";
+"amplify_ui_liveness_face_not_prepared_reason_not_in_oval" = "حرك وجهك ليتناسب مع الشكل البيضاوي";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_closer" = "اقترب أكثر";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_right" = "حرك وجهك إلى اليمين";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_left" = "حرك وجهك إلى اليسار";
+"amplify_ui_liveness_face_not_prepared_reason_move_to_dimmer_area" = "انتقل إلى منطقة أقل إضاءة";
+"amplify_ui_liveness_face_not_prepared_reason_move_to_brighter_area" = "انتقل إلى منطقة أكثر إضاءة";
+"amplify_ui_liveness_face_not_prepared_reason_no_face" = "ضع وجهك أمام الكاميرا";
+"amplify_ui_liveness_face_not_prepared_reason_multiple_faces" = "فقط وجه واحد لكل فحص";
+"amplify_ui_liveness_face_not_prepared_reason_face_too_close" = "أبعد وجهك عن الكاميرا";
