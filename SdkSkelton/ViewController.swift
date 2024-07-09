@@ -22,7 +22,28 @@ extension ViewController : iPassSDKManagerDelegate {
                 self.navigationController?.pushViewController(vc, animated: true)
             }
            
+        }
+        else {
+            DispatchQueue.main.async {
+                let alertController = UIAlertController(title: transactionId, message: error, preferredStyle: .alert)
+                       
+                       // Step 3: Add actions
+                       let okAction = UIAlertAction(title: "OK", style: .default) { (action) in
+                           // Handle the OK button tap if needed
+                           print("OK button tapped")
+                       }
+                       alertController.addAction(okAction)
+                       
+                       // Optionally, add more actions if needed
+                       // let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+                       // alertController.addAction(cancelAction)
+                       
+                       // Step 4: Present the alert
+                       self.present(alertController, animated: true, completion: nil)
+            }
             
+            
+          
         }
     }
 }
@@ -116,6 +137,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         
       //  iPassSDKManger.addLivenessInfoView(ctrl: self)
+        
+        configProperties.needHologramDetection(value: true)
         Task { @MainActor in
             iPassSDKManger.delegate = self
             await iPassSDKManger.startScanningProcess(userEmail: emailStr, flowId: flowNumber,

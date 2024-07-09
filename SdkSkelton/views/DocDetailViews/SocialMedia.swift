@@ -16,7 +16,6 @@ class SocialMedia: UIView, UITableViewDelegate, UITableViewDataSource {
     var phoneRules = ""
     
     func initDocDetail() {
-        
         socalDataTableView.register(UINib(nibName: "SummaryTableViewCell", bundle: nil), forCellReuseIdentifier: "SummaryTableViewCell")
         socalDataTableView.register(UINib(nibName: "FraudDetailTableViewCell", bundle: nil), forCellReuseIdentifier: "FraudDetailTableViewCell")
         socalDataTableView.register(UINib(nibName: "PhoneInfoTableViewCell", bundle: nil), forCellReuseIdentifier: "PhoneInfoTableViewCell")

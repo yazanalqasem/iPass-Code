@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/aws-amplify/amplify-ui-swift-liveness",
       "state" : {
-        "revision" : "c24b7f08021c15d047028d615fa6d0320e71f2f7",
-        "version" : "1.2.15"
+        "revision" : "737eb084b97105f77957ee98359e39fd6328cb1d",
+        "version" : "1.2.16"
       }
     },
     {
@@ -52,7 +52,7 @@
       "location" : "https://github.com/yazanalqasem/iPass2.0NativeiOS",
       "state" : {
         "branch" : "liveness_update",
-        "revision" : "8b592ce2ab730025fb6841b6a4e50101c1db857a"
+        "revision" : "14268848d44304a1ef0c0fe33f8347063887051f"
       }
     },
     {
