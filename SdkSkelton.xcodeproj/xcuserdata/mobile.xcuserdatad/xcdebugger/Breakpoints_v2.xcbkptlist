@@ -82,36 +82,6 @@
             endingLineNumber = "335"
             landmarkName = "methodForGet(urlStr:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2789033A-DBE3-452E-888F-6762254E29F6 - ec500aade0fb6524"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static iPass2_0NativeiOS.iPassHandler.methodForGet(urlStr: Swift.String, completion: (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "335"
-                  endingLineNumber = "335">
-               </Location>
-               <Location
-                  uuid = "2789033A-DBE3-452E-888F-6762254E29F6 - ec500aade0fb6524"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static iPass2_0NativeiOS.iPassHandler.methodForGet(urlStr: Swift.String, completion: (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "335"
-                  endingLineNumber = "335">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,36 +114,6 @@
             endingLineNumber = "372"
             landmarkName = "methodForGet(urlStr:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AC848D5B-65BA-4847-9E60-0C0FB2A9E8B4 - ec500aade0fb79eb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static iPass2_0NativeiOS.iPassHandler.methodForGet(urlStr: Swift.String, completion: (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "372"
-                  endingLineNumber = "372">
-               </Location>
-               <Location
-                  uuid = "AC848D5B-65BA-4847-9E60-0C0FB2A9E8B4 - ec500aade0fb79eb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static iPass2_0NativeiOS.iPassHandler.methodForGet(urlStr: Swift.String, completion: (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "372"
-                  endingLineNumber = "372">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -190,36 +130,6 @@
             endingLineNumber = "340"
             landmarkName = "methodForGet(urlStr:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "BD51441A-433D-42E2-9279-232EC9CA925E - ec500aade0fb65cb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static iPass2_0NativeiOS.iPassHandler.methodForGet(urlStr: Swift.String, completion: (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "340"
-                  endingLineNumber = "340">
-               </Location>
-               <Location
-                  uuid = "BD51441A-433D-42E2-9279-232EC9CA925E - ec500aade0fb65cb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static iPass2_0NativeiOS.iPassHandler.methodForGet(urlStr: Swift.String, completion: (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "340"
-                  endingLineNumber = "340">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -252,36 +162,6 @@
             endingLineNumber = "734"
             landmarkName = "startSavingDataToPanel()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D8F1622B-688F-4EA5-9038-7ABA0F081B7E - 4fc58bb67f7ba877"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in static iPass2_0NativeiOS.iPassSDKManger.startSavingDataToPanel() -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/iPassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "734"
-                  endingLineNumber = "734">
-               </Location>
-               <Location
-                  uuid = "D8F1622B-688F-4EA5-9038-7ABA0F081B7E - b62168ff69a08b0c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in static iPass2_0NativeiOS.iPassSDKManger.startSavingDataToPanel() -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/iPassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "734"
-                  endingLineNumber = "734">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -314,36 +194,6 @@
             endingLineNumber = "602"
             landmarkName = "fetchCurrentAuthSession()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "9FC51628-5856-4330-B023-2ECD0288AA6E - 3359758d25954d02"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for static iPass2_0NativeiOS.iPassSDKManger.fetchCurrentAuthSession() async -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/iPassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "602"
-                  endingLineNumber = "602">
-               </Location>
-               <Location
-                  uuid = "9FC51628-5856-4330-B023-2ECD0288AA6E - b57a66a427ebd44e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in static iPass2_0NativeiOS.iPassSDKManger.fetchCurrentAuthSession() async -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/iPassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "602"
-                  endingLineNumber = "602">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -376,36 +226,6 @@
             endingLineNumber = "495"
             landmarkName = "startDocumentProcessing()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7BDD92CC-0954-4566-B625-5F1F2AD168B5 - 18ea7b9d90b424b8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.RGLDocReaderAction, Swift.Optional&lt;__C.RGLDocumentReaderResults&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #2 (__C.RGLDocReaderAction, Swift.Optional&lt;__C.RGLDocumentReaderResults&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static iPass2_0NativeiOS.iPassSDKManger.startDocumentProcessing() -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/iPassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "495"
-                  endingLineNumber = "495">
-               </Location>
-               <Location
-                  uuid = "7BDD92CC-0954-4566-B625-5F1F2AD168B5 - 7c258efe263cf260"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (__C.RGLDocReaderAction, Swift.Optional&lt;__C.RGLDocumentReaderResults&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #2 (__C.RGLDocReaderAction, Swift.Optional&lt;__C.RGLDocumentReaderResults&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static iPass2_0NativeiOS.iPassSDKManger.startDocumentProcessing() -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/iPassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "495"
-                  endingLineNumber = "495">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -422,36 +242,6 @@
             endingLineNumber = "505"
             landmarkName = "startDocumentProcessing()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "26A04CCB-AECC-4F20-BAC1-C30F620D1E68 - 18ea7b9d90b4250e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.RGLDocReaderAction, Swift.Optional&lt;__C.RGLDocumentReaderResults&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #2 (__C.RGLDocReaderAction, Swift.Optional&lt;__C.RGLDocumentReaderResults&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static iPass2_0NativeiOS.iPassSDKManger.startDocumentProcessing() -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/iPassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "505"
-                  endingLineNumber = "505">
-               </Location>
-               <Location
-                  uuid = "26A04CCB-AECC-4F20-BAC1-C30F620D1E68 - 88a3369c707559d1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 @Swift.MainActor () -&gt; () in closure #1 (__C.RGLDocReaderAction, Swift.Optional&lt;__C.RGLDocumentReaderResults&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #2 (__C.RGLDocReaderAction, Swift.Optional&lt;__C.RGLDocumentReaderResults&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static iPass2_0NativeiOS.iPassSDKManger.startDocumentProcessing() -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/iPassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "505"
-                  endingLineNumber = "505">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -484,36 +274,6 @@
             endingLineNumber = "645"
             landmarkName = "faceLivenessApi()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "8D48FDC1-5956-4ACA-8B6A-0358B5AA9566 - 510cd2dd2f693930"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static iPass2_0NativeiOS.iPassSDKManger.faceLivenessApi() -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/iPassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "645"
-                  endingLineNumber = "645">
-               </Location>
-               <Location
-                  uuid = "8D48FDC1-5956-4ACA-8B6A-0358B5AA9566 - d9f02109c661fe46"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in static iPass2_0NativeiOS.iPassSDKManger.faceLivenessApi() -&gt; ()"
-                  moduleName = "SdkSkelton"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobile/Library/Developer/Xcode/DerivedData/SdkSkelton-hdftnblewbwchihcoyekwrpefgti/SourcePackages/checkouts/iPass2.0NativeiOS/Sources/Classes/iPassManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "645"
-                  endingLineNumber = "645">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
