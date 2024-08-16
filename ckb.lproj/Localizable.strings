@@ -1,0 +1,52 @@
+/*
+  Localizable.strings
+
+  
+*/
+
+
+"amplify_ui_liveness_get_ready_page_title" = "پشکنینی ژینگە";
+"amplify_ui_liveness_get_ready_photosensitivity_title" = "ئاگاداری هەست بە ڕووناکی";
+"amplify_ui_liveness_get_ready_photosensitivity_description" = "ئەم پشکنینە ڕەنگە جیاوازەکان گەورە دەکات. بە بەردەوامی بەکاربە؛ ئەگەر بە ڕووناکی هەست دەکەیت.";
+"amplify_ui_liveness_get_ready_photosensitivity_icon_a11y" = "زانیاری هەست بە ڕووناکی";
+"amplify_ui_liveness_get_ready_photosensitivity_dialog_title" = "ئاگاداری هەست بە ڕووناکی";
+"amplify_ui_liveness_get_ready_photosensitivity_dialog_description" = "هەندێک کەسان دەتوانن هەستی هەڵەییەکان هەست بکەن کاتێک بە ڕووناکی ڕەنگەکان دابن. بە بەردەوامی بەکاربە، ئەگەر تۆ یان هەر کەسێک لە خێزانەکەتەوە، ڕووناکی بەپێی شتێکیەوە هەست دەکەن.";
+"amplify_ui_liveness_get_ready_begin_check" = "پشکنینی ڤیدیۆ دەستپێ بکە";
+
+
+"amplify_ui_liveness_challenge_recording_indicator_label" = "تۆمارکردن";
+"amplify_ui_liveness_challenge_instruction_hold_face_during_countdown" = "پەیوەندیدانی دەست لە مەودایەک.";
+"amplify_ui_liveness_challenge_instruction_hold_face_during_freshness" = "لە کەیسی ڕەنگەکانەدا دەست دەست بکه‌.";
+"amplify_ui_liveness_challenge_instruction_move_face_back" = "پاشببە";
+"amplify_ui_liveness_challenge_instruction_move_face_closer" = "نزیکتر ببە";
+"amplify_ui_liveness_challenge_instruction_move_face_in_front_of_camera" = "پەیوەندیدانی وێنەی لە بەرامبەر کامێرا";
+"amplify_ui_liveness_challenge_instruction_multiple_faces_detected" = "تەنها یەک وێنە لە هەر پشکنینێک";
+"amplify_ui_liveness_challenge_instruction_hold_still" = "هەر ڕووکەوە";
+
+"amplify_ui_liveness_challenge_connecting" = "پەیوەندی...";
+"amplify_ui_liveness_challenge_verifying" = "پشکنینی";
+"amplify_ui_liveness_challenge_cancel_a11y" = "ڕەتی پشکنین";
+
+"amplify_ui_liveness_camera_setting_alert_title" = "دێکارەکەی خۆت بەکارهێنە";
+"amplify_ui_liveness_camera_setting_alert_message" = "ڕێگاپێدانەکانی دێکارەکەت هەڵبژێرە لە تنظیمات.";
+"amplify_ui_liveness_camera_setting_alert_update_setting_button_text" = "ڕێگاکردنەوە";
+"amplify_ui_liveness_camera_setting_alert_not_now_button_text" = "نیە ئەم کاتە";
+
+"amplify_ui_liveness_close_button_a11y" = "داخستن";
+
+"amplify_ui_liveness_center_your_face_text" = "وێنەکەت لە ناوەڕاست بکە";
+"amplify_ui_liveness_camera_permission_page_title" = "پشکنینی ژینگە";
+"amplify_ui_liveness_camera_permission_button_title" = "گۆڕینی تنظیمات";
+"amplify_ui_liveness_camera_permission_button_header" = "کامێرا بەردەست نییە";
+"amplify_ui_liveness_camera_permission_button_description" = "ئەگەر بەکارهێنانەکان بەڕێگادەنە، دەبێت بە کامێرا ڕێگاپێدابیت و ئەپەکە پەیوەندیدانی دەست بە چالاک کە.";
+
+"amplify_ui_liveness_face_not_prepared_reason_pendingCheck" = " ";
+"amplify_ui_liveness_face_not_prepared_reason_not_in_oval" = "وێنەکەت لە ناوەڕاست بکە";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_closer" = "نزیکتر ببە";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_right" = "چپتر ببە";
+"amplify_ui_liveness_face_not_prepared_reason_move_face_left" = "ڕاستتر ببە";
+"amplify_ui_liveness_face_not_prepared_reason_move_to_dimmer_area" = "بەناوبەندتر ببە";
+"amplify_ui_liveness_face_not_prepared_reason_move_to_brighter_area" = "رووناکتر ببە";
+"amplify_ui_liveness_face_not_prepared_reason_no_face" = "پەیوەندیدانی وێنەی لە بەرامبەر کامێرا";
+"amplify_ui_liveness_face_not_prepared_reason_multiple_faces" = "تەنها یەک وێنە لە هەر پشکنینێک";
+"amplify_ui_liveness_face_not_prepared_reason_face_too_close" = "دوراترببە";

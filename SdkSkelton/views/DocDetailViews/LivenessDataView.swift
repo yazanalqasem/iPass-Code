@@ -78,14 +78,17 @@ class LivenessDataView: UIView, UITableViewDelegate, UITableViewDataSource {
         var tempdataHolder = [String: Any]()
         
         if let visuFaceMatching = basedata["faceMatchngResult"] as? [[String: Any]] {
-            tempdataHolder["status"] = visuFaceMatching[0]["status"]
-            tempdataHolder["sourceImage"] = visuFaceMatching[0]["sourceImageBase64"]
-            tempdataHolder["targetImage"] = visuFaceMatching[0]["targetImageBase64"]
-            tempdataHolder["faceSimilarity"] = visuFaceMatching[0]["facePercentage"]
-            tempdataHolder["confidence"] = visuFaceMatching[0]["confidence"]
-            tempdataHolder["source"] = "Visual"
-            
-            faceMatchingDict.append(tempdataHolder)
+            if(visuFaceMatching.count != 0) {
+                tempdataHolder["status"] = visuFaceMatching[0]["status"]
+                tempdataHolder["sourceImage"] = visuFaceMatching[0]["sourceImageBase64"]
+                tempdataHolder["targetImage"] = visuFaceMatching[0]["targetImageBase64"]
+                tempdataHolder["faceSimilarity"] = visuFaceMatching[0]["facePercentage"]
+                tempdataHolder["confidence"] = visuFaceMatching[0]["confidence"]
+                tempdataHolder["source"] = "Visual"
+                
+                faceMatchingDict.append(tempdataHolder)
+            }
+           
         }
       
         tempdataHolder = [String: Any]()

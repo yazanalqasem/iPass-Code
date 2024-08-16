@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		754D441E2C3597FF007FA5CB /* OcrHeadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754D441C2C3597FF007FA5CB /* OcrHeadingTableViewCell.xib */; };
-		754D441F2C3597FF007FA5CB /* OcrHeadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D441D2C3597FF007FA5CB /* OcrHeadingTableViewCell.swift */; };
 		756598802C2B078B0064A26F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7565987F2C2B078B0064A26F /* DataManager.swift */; };
 		757667EB2C21A8850013415B /* DocVerificationMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757667E92C21A8850013415B /* DocVerificationMapTableViewCell.swift */; };
 		757667EC2C21A8850013415B /* DocVerificationMapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 757667EA2C21A8850013415B /* DocVerificationMapTableViewCell.xib */; };
@@ -86,6 +84,8 @@
 		75A996D52C2089B500CFA4E7 /* VisualCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A996D32C2089B500CFA4E7 /* VisualCollectionViewCell.xib */; };
 		75A996D62C2089B500CFA4E7 /* VisualCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A996D42C2089B500CFA4E7 /* VisualCollectionViewCell.swift */; };
 		75A996D82C208B9A00CFA4E7 /* ImageConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A996D72C208B9A00CFA4E7 /* ImageConverter.swift */; };
+		75B7933D2C57D43F0046B547 /* OcrHeadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B7933B2C57D43F0046B547 /* OcrHeadingTableViewCell.xib */; };
+		75B7933E2C57D43F0046B547 /* OcrHeadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7933C2C57D43F0046B547 /* OcrHeadingTableViewCell.swift */; };
 		75C5C3FF2C2D522000F2555E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75C5C3FD2C2D522000F2555E /* Localizable.strings */; };
 		75C5C4172C2D7D6500F2555E /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C5C4152C2D7D6500F2555E /* CollapsibleTableViewHeader.swift */; };
 		75C5C4182C2D7D6500F2555E /* CollapsibleTableSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C5C4162C2D7D6500F2555E /* CollapsibleTableSectionViewController.swift */; };
@@ -127,8 +127,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		754D441C2C3597FF007FA5CB /* OcrHeadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OcrHeadingTableViewCell.xib; path = "../../../../../../../SdkSkelton 2024-06-26 20-53-01/OcrHeadingTableViewCell.xib"; sourceTree = "<group>"; };
-		754D441D2C3597FF007FA5CB /* OcrHeadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OcrHeadingTableViewCell.swift; path = "../../../../../../../SdkSkelton 2024-06-26 20-53-01/OcrHeadingTableViewCell.swift"; sourceTree = "<group>"; };
+		750DE69E2C53C3B5007E1E07 /* ckb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ckb; path = ckb.lproj/Main.strings; sourceTree = "<group>"; };
+		750DE69F2C53C3B5007E1E07 /* ckb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ckb; path = ckb.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		750DE6A02C53C3B5007E1E07 /* ckb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ckb; path = ckb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7565987F2C2B078B0064A26F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		757667E92C21A8850013415B /* DocVerificationMapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocVerificationMapTableViewCell.swift; sourceTree = "<group>"; };
 		757667EA2C21A8850013415B /* DocVerificationMapTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocVerificationMapTableViewCell.xib; sourceTree = "<group>"; };
@@ -210,6 +211,8 @@
 		75A996D32C2089B500CFA4E7 /* VisualCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisualCollectionViewCell.xib; sourceTree = "<group>"; };
 		75A996D42C2089B500CFA4E7 /* VisualCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualCollectionViewCell.swift; sourceTree = "<group>"; };
 		75A996D72C208B9A00CFA4E7 /* ImageConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConverter.swift; sourceTree = "<group>"; };
+		75B7933B2C57D43F0046B547 /* OcrHeadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OcrHeadingTableViewCell.xib; path = ../../../../../../../../Downloads/OcrHeadingTableViewCell.xib; sourceTree = "<group>"; };
+		75B7933C2C57D43F0046B547 /* OcrHeadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OcrHeadingTableViewCell.swift; path = ../../../../../../../../Downloads/OcrHeadingTableViewCell.swift; sourceTree = "<group>"; };
 		75C5C3FE2C2D522000F2555E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		75C5C4002C2D525000F2555E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		75C5C4012C2D525000F2555E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -476,8 +479,8 @@
 		7588F3962C19DC1C00A6A1EF /* IDDocTableCells */ = {
 			isa = PBXGroup;
 			children = (
-				754D441D2C3597FF007FA5CB /* OcrHeadingTableViewCell.swift */,
-				754D441C2C3597FF007FA5CB /* OcrHeadingTableViewCell.xib */,
+				75B7933C2C57D43F0046B547 /* OcrHeadingTableViewCell.swift */,
+				75B7933B2C57D43F0046B547 /* OcrHeadingTableViewCell.xib */,
 				7588F3972C19DC4400A6A1EF /* DocChecksTableCell.swift */,
 				7588F3982C19DC4400A6A1EF /* DocChecksTableCell.xib */,
 				757F119F2C1C844F001D3C22 /* OcrSubheadingCell.swift */,
@@ -630,6 +633,7 @@
 				es,
 				tr,
 				ur,
+				ckb,
 			);
 			mainGroup = 7588F2EA2C19692900A6A1EF;
 			packageReferences = (
@@ -673,7 +677,7 @@
 				7588F3992C19DC4400A6A1EF /* DocChecksTableCell.xib in Resources */,
 				758C8D8E2C297FCA00362B24 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				757F11972C1C7563001D3C22 /* OcrDataCollectionViewCell.xib in Resources */,
-				754D441E2C3597FF007FA5CB /* OcrHeadingTableViewCell.xib in Resources */,
+				75B7933D2C57D43F0046B547 /* OcrHeadingTableViewCell.xib in Resources */,
 				757E4F742C2322A20088E1B8 /* AmlDataTableViewCell.xib in Resources */,
 				757667F02C21AB170013415B /* MapImageTableViewCell.xib in Resources */,
 				757E4F6A2C22ED570088E1B8 /* LivenessImagesCollectionViewCell.xib in Resources */,
@@ -728,7 +732,7 @@
 			files = (
 				75D738512C2555AF002A0861 /* FraudDetailTableViewCell.swift in Sources */,
 				75A996D82C208B9A00CFA4E7 /* ImageConverter.swift in Sources */,
-				754D441F2C3597FF007FA5CB /* OcrHeadingTableViewCell.swift in Sources */,
+				75B7933E2C57D43F0046B547 /* OcrHeadingTableViewCell.swift in Sources */,
 				759A7F152C20297B00B688B8 /* DocAuthTableViewCell.swift in Sources */,
 				75A996D22C20810D00CFA4E7 /* JsonDataHandler.swift in Sources */,
 				75E563BF2C242F3500742320 /* SocialMedia.swift in Sources */,
@@ -818,6 +822,7 @@
 				75C5C40C2C2D528F00F2555E /* es */,
 				75C5C40F2C2D529400F2555E /* tr */,
 				75C5C4122C2D52BA00F2555E /* ur */,
+				750DE69E2C53C3B5007E1E07 /* ckb */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -833,6 +838,7 @@
 				75C5C40D2C2D528F00F2555E /* es */,
 				75C5C4102C2D529400F2555E /* tr */,
 				75C5C4132C2D52BA00F2555E /* ur */,
+				750DE69F2C53C3B5007E1E07 /* ckb */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -848,6 +854,7 @@
 				75C5C40E2C2D528F00F2555E /* es */,
 				75C5C4112C2D529400F2555E /* tr */,
 				75C5C4142C2D52BA00F2555E /* ur */,
+				750DE6A02C53C3B5007E1E07 /* ckb */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1160,7 +1167,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/yazanalqasem/iPass2.0NativeiOS";
 			requirement = {
-				branch = liveness_update;
+				branch = customdb;
 				kind = branch;
 			};
 		};

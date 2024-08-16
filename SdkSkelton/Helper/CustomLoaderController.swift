@@ -290,7 +290,7 @@ class LoadingView: UIView {
         if progress.isEmpty {
             progressLabel.text = "Loading..."
         } else {
-            progressLabel.text = "Downloading \(progress.replacingOccurrences(of: "Downloading database: ", with: ""))"
+            progressLabel.text = "Database downloading: " + progress //"\(progress.replacingOccurrences(of: "Downloading database: ", with: ""))"
         }
     }
     

@@ -7,6 +7,8 @@
 
 import UIKit
 import iPass2_0NativeiOS
+import CoreNFC
+
 
 extension ViewController : iPassSDKManagerDelegate {
 
@@ -48,14 +50,32 @@ extension ViewController : iPassSDKManagerDelegate {
     }
 }
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, NFCNDEFReaderSessionDelegate {
 
     @IBOutlet weak var flowsTableView: UITableView!
     let loadingView = LoadingView()
     var dataDict: [[String: Any]] = []
+    
+    
+    
+    
+    
+//    
     var appToken1 = "eyJhbGciOiJIUzI1NiJ9.aXBhc3Ntb2Jpb3NAeW9wbWFpbC5jb21CaWtyYW0gc2luZ2ggICBjYjg5N2FlNC0wZDg2LTQzZmEtYmZhYy1hZjM0ZTFjOTFkMDM.C-BLHVUeW2nlFWgJGMCJV-w4PcSzq85r81X6bQuzE80"
     var emailStr = "ipassmobios@yopmail.com"
     var passwordStr  =  "Admin@123#"
+    
+    
+    
+//    var appToken1 = "eyJhbGciOiJIUzI1NiJ9.dGVzdHdlYmhvb2tpcGFzc0B5b3BtYWlsLmNvbUFqYXkgS3VtYXIgICA1ZDBmMTQ5Yi1jM2ZlLTRlYTUtOGY2ZC1lZmU4NzM2MDg0OTE.Mgl6wdtfkMt3niHgbeRk7RYlB-QflCa69u8U3re1tDo"
+//    var emailStr = "testwebhookipass@yopmail.com"
+//    var passwordStr  =  "Admin@123#"
+    
+
+    
+    
+    var nfcSession: NFCNDEFReaderSession?
+    
    // var userToken = String()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -78,17 +98,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.loadingView.updateProgress("")
         }
         
-        DataBaseDownloading.initialization(completion:{progres, status, error in
-            print(progres, status, error)
-            DispatchQueue.main.async {
-                self.loadingView.updateProgress(progres)
-                
-            }
+        
+        configProperties.setLoaderColor(color: .purple)
+        configProperties.needHologramDetection(value: true)
+        
+        DataBaseDownloading.initialization(dbType: DataBaseDownloading.availableDataSources.fullAuth, completion:{status, error in
+            print(status, error)
             if(status == "Start Now") {
-                configProperties.setLoaderColor(color: UIColor.red)
-                
-                configProperties.needHologramDetection(value: false)
-                
+               
                 iPassSDKManger.UserOnboardingProcess(email: self.emailStr, password: self.passwordStr) { status, tokenString in
                   //  print(tokenString)
                     DispatchQueue.main.async {
@@ -121,24 +138,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
-    func startDocScanner (_ flowNumber: Int)  {
-        configProperties.setLoaderColor(color: .white)
-       // 553c6d85-bfbd-4b61-8d19-d407c091c68e
-        //597b482f-4d44-42be-a9ce-a40cdaa1fc1a
+    // 553c6d85-bfbd-4b61-8d19-d407c091c68e
+     //597b482f-4d44-42be-a9ce-a40cdaa1fc1a
 //        2261b84f-090e-441f-a5ca-31ba1c71ca25
 //        i267130117OSrAIf7kaLaV2024-06-1412-3410031
-      //  i277845013OSUrFRcPxGhD2024-06-2611-0810015
-        //i38195208OSIhC80SEIbD2024-06-2611-0710011
-        // 262a6a13-12b8-4cd6-8296-af7df38df52b
-        //i330904380OS8KwSw84n9u2024-06-2613-4710011
-        //i925336646OSSI0ki3x5TD2024-06-2719-2110031
+   //  i277845013OSUrFRcPxGhD2024-06-2611-0810015
+     //i38195208OSIhC80SEIbD2024-06-2611-0710011
+     // 262a6a13-12b8-4cd6-8296-af7df38df52b
+     //i330904380OS8KwSw84n9u2024-06-2613-4710011
+     //i925336646OSSI0ki3x5TD2024-06-2719-2110031
 //        iPassSDKManger.delegate = self
 //        iPassSDKManger.fetchTransaction(transactionId: "i267130117OSrAIf7kaLaV2024-06-1412-3410031", controller: self, appToken: self.appToken1 )
+     
+     
+   //  iPassSDKManger.addLivenessInfoView(ctrl: self)
+    
+    func startDocScanner (_ flowNumber: Int)  {
+      
         
-        
-      //  iPassSDKManger.addLivenessInfoView(ctrl: self)
-        
-        configProperties.needHologramDetection(value: true)
         Task { @MainActor in
             iPassSDKManger.delegate = self
             await iPassSDKManger.startScanningProcess(userEmail: emailStr, flowId: flowNumber,
@@ -308,6 +325,36 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     
     
+    func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
+            if let nfcError = error as? NFCReaderError {
+                switch nfcError.code {
+                case .readerSessionInvalidationErrorUserCanceled:
+                    print("User canceled the session.")
+                case .readerSessionInvalidationErrorSessionTimeout:
+                    print("Session timeout.")
+                default:
+                    print("Other error: \(nfcError.localizedDescription)")
+                }
+            } else {
+                print("Error: \(error.localizedDescription)")
+            }
+        }
+
+    func readerSessionDidBecomeActive(_ session: NFCNDEFReaderSession) {
+        print("NFC Reader session became active")
+    }
+    
+    func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
+        for message in messages {
+            for record in message.records {
+                print("NFC Tag payload------: \(record)")
+                if let payload = String(data: record.payload, encoding: .utf8) {
+                    print("NFC Tag payload: \(payload)")
+                }
+            }
+        }
+    }
+    
 
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -350,6 +397,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if(indexPath.row == 0) {
             DataManager.shared.selectedFlowCode = 10031
              startDocScanner(10031)
+//            guard NFCNDEFReaderSession.readingAvailable else {
+//                       print("NFC is not available on this device")
+//                       return
+//                   }
+//
+//                   nfcSession = NFCNDEFReaderSession(delegate: self, queue: nil, invalidateAfterFirstRead: true)
+//                   nfcSession?.alertMessage = "Hold your iPhone near the NFC tag."
+//                   nfcSession?.begin()
+            
         }
         else if(indexPath.row == 1) {
             DataManager.shared.selectedFlowCode = 10032
@@ -371,4 +427,37 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

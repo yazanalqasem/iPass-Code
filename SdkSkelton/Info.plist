@@ -9,6 +9,8 @@
 		<string>Poppins-Medium.ttf</string>
 		<string>Poppins-SemiBold.ttf</string>
 	</array>
+    <key>NFCReaderUsageDescription</key>
+    <string>We need to use NFC to scan tags.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

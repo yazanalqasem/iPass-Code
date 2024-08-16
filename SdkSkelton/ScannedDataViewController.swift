@@ -87,12 +87,15 @@ class ScannedDataViewController: UIViewController, UICollectionViewDelegate, UIC
         
         if(overAllStatus == "REJECTED") {
             documentStatusView.backgroundColor = UIColor(red: 249/255, green: 65/255, blue: 80/255, alpha: 1.0)
+            documentStatusText.textColor = .white
         }
        else if(overAllStatus == "WARNING") {
             documentStatusView.backgroundColor = UIColor(red: 246/255, green: 153/255, blue: 49/255, alpha: 1.0)
+           documentStatusText.textColor = .white
         }
         else  {
-             documentStatusView.backgroundColor = UIColor(red: 37/255, green: 210/255, blue: 158/255, alpha: 1.0)
+             documentStatusView.backgroundColor = UIColor(red: 205/255, green: 205/255, blue: 205/255, alpha: 1.0)
+            documentStatusText.textColor = .black
          }
         docStatusLabel.text = overAllStatus
         docStatusLabel.font = Fonts().getFont500(size: 10)
