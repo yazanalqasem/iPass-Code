@@ -57,7 +57,7 @@ To explain how a user can use the iPASS Package in steps, you can outline the pr
 
 First, we need to add the package to the application using the git link: [https://github.com/yazanalqasem/iPass2.0NativeiOS](https://github.com/yazanalqasem/iPass2.0NativeiOS)
 
-Here is the release details:
+Here is the SDK versions release details:
 [https://devdocs.ipass-mena.com/documentation.html](https://devdocs.ipass-mena.com/documentation.html)
 
 Steps to add the package:
