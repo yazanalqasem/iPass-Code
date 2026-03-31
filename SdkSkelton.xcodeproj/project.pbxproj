@@ -294,7 +294,6 @@
 		75430BA12EA1D9DD0019EF28 /* DocVerificationMapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75430A392EA1D9DC0019EF28 /* DocVerificationMapTableViewCell.xib */; };
 		75430BA32EA1E7190019EF28 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75430BA22EA1E7190019EF28 /* Info.plist */; };
 		75430BA42EA1E7190019EF28 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75430BA22EA1E7190019EF28 /* Info.plist */; };
-		75617A622EB8862900DB5369 /* iPass2.0NativeiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 75617A612EB8862900DB5369 /* iPass2.0NativeiOS */; };
 		7588F30E2C19692B00A6A1EF /* SdkSkeltonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7588F30D2C19692B00A6A1EF /* SdkSkeltonTests.swift */; };
 		7588F3182C19692B00A6A1EF /* SdkSkeltonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7588F3172C19692B00A6A1EF /* SdkSkeltonUITests.swift */; };
 		7588F31A2C19692B00A6A1EF /* SdkSkeltonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7588F3192C19692B00A6A1EF /* SdkSkeltonUITestsLaunchTests.swift */; };
@@ -454,7 +453,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75617A622EB8862900DB5369 /* iPass2.0NativeiOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,7 +736,6 @@
 			);
 			name = SdkSkelton;
 			packageProductDependencies = (
-				75617A612EB8862900DB5369 /* iPass2.0NativeiOS */,
 			);
 			productName = SdkSkelton;
 			productReference = 7588F2F32C19692900A6A1EF /* SdkSkelton.app */;
@@ -821,7 +818,6 @@
 			);
 			mainGroup = 7588F2EA2C19692900A6A1EF;
 			packageReferences = (
-				75617A602EB8862900DB5369 /* XCRemoteSwiftPackageReference "iPass2" */,
 			);
 			productRefGroup = 7588F2F42C19692900A6A1EF /* Products */;
 			projectDirPath = "";
@@ -1533,25 +1529,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		75617A602EB8862900DB5369 /* XCRemoteSwiftPackageReference "iPass2" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/yazanalqasem/iPass2.0NativeiOS";
-			requirement = {
-				branch = "update-10016Nov3";
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		75617A612EB8862900DB5369 /* iPass2.0NativeiOS */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 75617A602EB8862900DB5369 /* XCRemoteSwiftPackageReference "iPass2" */;
-			productName = iPass2.0NativeiOS;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7588F2EB2C19692900A6A1EF /* Project object */;
 }
